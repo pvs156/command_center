@@ -1,0 +1,21 @@
+# Local environment
+.venv/
+__pycache__/
+.pytest_cache/
+*.log
+
+# Private: API keys and all user data (resume, career profile, database, exports, backups)
+.env
+data/
+*.db
+*.docx
+!tests/**/*.docx
+
+# Personal planning notes and local tool config
+docs/DISCOVERY-QUESTIONS.md
+docs/REQUIREMENTS-DRAFT.md
+.claude/
+
+# Demo recording scratch
+docs/demo/raw*/
+docs/demo/shot-*.png
